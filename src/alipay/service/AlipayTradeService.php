@@ -7,6 +7,7 @@ use Qdxinrui\pcpay\alipay\aop\request\AlipayTradeCloseRequest;
 use Qdxinrui\pcpay\alipay\aop\request\AlipayTradeFastpayRefundQueryRequest;
 use Qdxinrui\pcpay\alipay\aop\request\AlipayDataDataserviceBillDownloadurlQueryRequest;
 use Qdxinrui\pcpay\alipay\aop\AopClient;
+use Exception;
 class AlipayTradeService {
 
     //支付宝网关地址
