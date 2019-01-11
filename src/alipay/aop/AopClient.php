@@ -1,5 +1,6 @@
 <?php
 namespace Qdxinrui\pcpay\alipay\aop;
+use Exception;
 class AopClient {
     //应用ID
     public $appId;
